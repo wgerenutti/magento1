@@ -84,5 +84,5 @@ if (file_exists($maintenanceFile)) {
         exit;
     }
 }
-
+echo $a;
 Mage::run($mageRunCode, $mageRunType);
