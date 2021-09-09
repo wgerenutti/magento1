@@ -5,4 +5,13 @@
             <version>1.0.0</version>
         </Magenteiro_Config>
     </modules>
+    <global>
+    </global>
+    <default>
+        <configs>
+            <visual>
+                <palavra>Teste</palavra>
+            </visual>
+        </configs>
+    </default>
 </config>

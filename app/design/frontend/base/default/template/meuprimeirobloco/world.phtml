@@ -1,4 +1,9 @@
 <h1>Hello World</h1>
 <?php
 echo $this->getHello();
-echo Mage::getStoreConfig('web/unsecure/base_url');
+echo Mage::getStoreConfig('web/unsecure/base_url \n');
+if(Mage::getStoreConfigFlag('configs/visual/habilitado')){
+    echo Mage::getStoreConfig('configs/visual/palavra');
+}else{
+    echo "";
+}
