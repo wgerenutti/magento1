@@ -5,6 +5,13 @@
             <version>1.0.0</version>
         </AprendaMagento_AddToCart>
     </modules>
+    <global>
+        <helpers>
+            <aprendamagento_meuprimeirohelper>
+                <class>AprendaMagento_AddToCart_Helper</class>
+            </aprendamagento_meuprimeirohelper>
+        </helpers>
+    </global>
     <frontend>
         <routers>
             <aprendamagento_addtocart>

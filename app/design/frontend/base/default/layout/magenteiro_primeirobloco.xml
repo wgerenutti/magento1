@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="top.container">
+            <block name="helloworld" type="magenteiro_primeirobloco/hello" template="meuprimeirobloco/world.phtml"/>
+        </reference>
+    </default>
+</layout>
