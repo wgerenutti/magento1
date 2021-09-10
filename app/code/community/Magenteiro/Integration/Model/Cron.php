@@ -1,8 +1,6 @@
 <?php
-class Magenteiro_Integration_Model_Cron
-{
-    public function integrate()
-    {
+class Magenteiro_Integration_Model_Cron{
+    public function integrate()    {
         $orders = Mage::getModel('magenteiro_integration/queue')->getCollection()
             ->addFieldToFilter('integrated_at', '000-00-00 00:00:00')
             ->getItems();
