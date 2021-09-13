@@ -40,5 +40,4 @@ class Magenteiro_Integration_IndexController extends Mage_Core_Controller_Front_
             echo '<h1>Evento: '.$log->getEvent().'</h2>';
         }
     }
-    
 }
