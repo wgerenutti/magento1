@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layout>
     <default>
-        <reference name="content">
-            <block name="inteligente" type="core/template" template="home/inteligente.phtml"/>
+        <reference name="footer">
+            <block name="telefone.rodape" type="cms/block" template="cms/block">
+                <action method="setBlockId"><param>telefone</param></action>
+            </block>
         </reference>
     </default>
 </layout>
